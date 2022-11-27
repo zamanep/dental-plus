@@ -167,7 +167,7 @@ z-index: 0;
     z-index: -1;
     transition: .9s all ease-in-out;
 }
-.banner-pro h1:hover::before{
+.banner:hover h1::before{
     width: 100%;
 }
 .banner-pro h2{
@@ -191,7 +191,7 @@ z-index: 0;
 .banner-pro h2::before{
     content: '';
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: 0%;
     height: 100%;
@@ -199,7 +199,7 @@ z-index: 0;
     z-index: -1;
     transition: .9s all ease-in-out;
 }
-.banner-pro h2:hover::before{
+.banner:hover h2::before{
     width: 100%;
 }
 .banner-pro p{
