@@ -758,7 +758,7 @@ font-weight: 600;
     width: 100%;
     background-color: #363636;
     position: absolute;
-    opacity: .7;
+    opacity: .8;
     z-index: -1;
 
 }
@@ -777,67 +777,221 @@ font-weight: 600;
 
 }
 
-/* .owl-nav{
 
-}
-.client-carousel .owl-nav .owl-prev{
-        
-position: absolute;
-        
-left: 3%;
-        
-top: 50%;
-        
-transform: translateY(-50%);
-    }
-    .client-carousel .owl-nav .owl-prev span{
-        
-color: #fff;
-        
-font-size: 49px;
-        
-background-color: #00cce1;
-        
-height: 30px;
-        
-width: 22px;
-        
-display: flex;
-        
-align-items: center;
-        
-justify-content: center;
-        
-padding-bottom: 8px;
+
+    .hclient_row{
+        justify-content: space-between;
+    align-items: center;
     }
 
-    .client-carousel .owl-nav .owl-next{
-        
-position: absolute;
-        
-right: 3%;
-        
-top: 50%;
-        
-transform: translateY(-50%);
+   
+
+     .clients-carousel .owl-dots .owl-dot{
+        display: none;
+    
     }
-    .client-carousel  .owl-nav .owl-next span{
+
+    footer{
+
+    }
+    .top-footer{
+    background-color: #191919;
+    }
+    .logo-part{
+    
+    }
+    .logo-part img{
         
-color: #fff;
+    }
+    .logo-part p{
         
-background-color: #00cce1;
+    color: #b4b4b4;
         
-width: 22px;
+    font-weight: 500;
         
-height: 30px;
+    padding: 30px 0;
+    }
+    .footer-contact{
+    
+    display: flex;
+    
+    align-items: center;
+    
+    margin-bottom: 20px;
+    }
+    .footer-icon{
+    
+    }
+    .footer-icon img{
         
-font-size: 49px;
+    }
+    .footer-text{
+    
+    margin-left: 15px;
+    }
+    .footer-text p{
         
-display: flex;
+    color: #b4b4b4;
         
-justify-content: center;
+    font-weight: 500;
         
-align-items: center;
+    font-size: 14px;
+    }
+    .recent-post{
+    
+    }
+    .recent-post h2{
         
-padding-bottom: 8px;
-    } */
+    color: #fff;
+        
+    margin-bottom: 30px;
+        
+    /* padding: 30px 0; */
+    }
+    .client-details{
+    
+    display: flex;
+    
+    align-items: center;
+    
+    margin-bottom: 20px;
+    
+    /* padding: 30px 0; */
+    }
+    .client-img{
+    
+    }
+    .client-img img{
+        
+    }
+    .client-text{
+    
+    margin-left: 15px;
+    }
+    .client-text h6{
+        
+    color: #b4b4b4;
+        
+    font-weight: 500;
+        
+    margin-bottom: 10px;
+    }
+    .client-text p{
+        
+    color: #b4b4b4;
+        
+    font-weight: 400;
+        
+    font-size: 14px;
+    }
+    .newsletter{
+    
+    }
+    .newsletter h2{
+        
+    color: #fff;
+        
+    margin-bottom: 30px;
+    }
+    .newsletter p{
+        
+    color: #b4b4b4;
+        
+    font-weight: 500;
+        
+    margin-bottom: 25px;
+    }
+    .footer-form{
+    
+    }
+    .footer-form form{
+        
+    display: flex;
+        
+    align-items: center;
+    }
+    .footer-form form input{
+        
+    border-radius: 0;
+        
+    border-color: #a0a0a0;
+        
+    color: #b4b4b4;
+        
+    padding: 12px;
+        
+    background-color: transparent;
+    }
+    .footer-form form input[type="submit"]{
+        
+    background-color: #F69165;
+        
+    padding: 13px 20px;
+        
+    color: #fff;
+        
+    border: none;
+        
+    border-radius: 0;
+        
+    text-transform: uppercase;
+    }
+    .follow{
+    
+    align-items: center;
+    
+    margin-top: 50px;
+    }
+    .follow h3{
+        
+    color: #fff;
+        
+    margin-right: 15px;
+    }
+    .follow ul{
+    
+    list-style: none;
+    
+    display: flex;
+    
+    align-items: center;
+    }
+    .follow ul li{
+    
+    height: 35px;
+    
+    width: 35px;
+    
+    margin-left: 10px;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-color: #323232;
+    transition: .5s all ease-in-out;
+    }
+    .follow ul li i{
+    
+    color: #fff;
+    }
+    .follow ul li:hover{
+        background-color:#f69165;
+    
+    }
+    .bottom-footer{
+        background-color: #161616;
+        padding: 20px;
+    }
+    .bottom-footer p{
+    
+    color: #b4b4b4;
+    
+    font-weight: 500;
+    }
+    .bottom-footer p span {
+        
+    color: #00cce1;
+    }
